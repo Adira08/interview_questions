@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .topic {
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .button {
+            width: 15%;
+            height: 7%;
+            margin-left: 10%;
+            border-radius: 5px;
+            background-color: rgb(84, 191, 234);
+            color: white;
+        }
+
+        .button:hover {
+            background-color: rgb(41, 138, 176);
+            box-shadow: 5px 5px 10px rgb(84, 79, 79);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .font {
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            margin-left: 10%;
+        }
+
+        .question3 {
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            text-align: center;
+            transition-duration: 2s;
+            margin-left: 10%;
+        }
+
+        .question3:hover {
+            width: 400px;
+            background-color: yellowgreen;
+            transition: ease-in-out;
+            transition-duration: 1s;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: orangered;
+            margin-left: 10%;
+        }
+
+        .Question5 {
+            border: 1px solid black;
+            width: 80%;
+            margin-left: 10%;
+            height: 10%;
+            background-color: orangered;
+            text-align: center;
+        }
+
+        @media screen and (max-width:760px) {
+            .Question5 {
+                background-color: orange;
+                width: 50%;
+                margin-left: 25%;
+                border-radius: 20px;
+                text-align: center;
+            }
+        }
+
+        .animation {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            animation: animation1 1s infinite;
+            animation-direction: normal;
+            background-color: darksalmon;
+            margin: 2% 0% 5% 2%;
+            
+        }
+
+        @keyframes animation1 {
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="topic">CSS IMPLEMENTATION EASY</h1>
+
+
+    <h1> 1. Replicate the button on masthead of Prepbytes</h1> <br>
+
+    Ans. <br>
+    <button class="button">
+        <a href=" https://www.prepbytes.com/" alt="Error"> Enroll Here </a>
+    </button>
+
+
+    <h1> 2. Write a text and add any google font</h1>
+
+    Ans. <br>
+    <span class="font"> Hello Prepbytes! </span>
+
+
+    <h1> 3. Crate a box and increase its width on hover, add transition on hover</h1>
+
+    Ans. <br> <br>
+
+    <div class="question3"> Width Change on hover</div>
+
+
+    <h1> 4. Create a circle using border radius</h1>
+
+    Ans. <br> <br>
+
+    <div class="circle"></div>
+
+
+    <h1> 5. Write a code to show implementation of media quaries</h1>
+
+    Ans. <br>
+
+    <div class="Question5">
+        Media query <br>
+        When screen size goes below the 760px it <br>
+        changes its background color and width.
+    </div>
+
+
+    <h1> 6. Write code to show any animation example </h1>
+
+    Ans. <br>
+
+    <div class="animation"></div>
+
+</body>
